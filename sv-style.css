@@ -1,3 +1,9 @@
+@media (max-width: 820px) {
+	.formbox {
+		padding-left: 2em;
+	}
+}
+
 .formbox__field-radio{
 	padding-bottom: 10px;
 	padding-top: 10px;
