@@ -1,0 +1,71 @@
+.formbox__field-radio{
+	padding-bottom: 10px;
+	padding-top: 10px;
+		align-items: center !important;
+}
+
+.formbox__btn {
+	    justify-content: center;
+}
+
+.nerodyti {
+	display: none;
+}
+
+#progress-bar {
+        width: 100%;
+        /* Full width */
+        height: 15px;
+        /* Fixed height */
+        background-color: #f1f1f1;
+        /* Light gray background */
+        border-radius: 20px;
+    }
+
+    /* Styling for the progress bar fill */
+    #progress-bar-fill {
+        height: 100%;
+        /* Full height */
+        background-color: rgba(102, 152, 175, 0.8);
+        /* Green fill color */
+        border-radius: 20px;
+			width: 0;
+    }
+
+.formbox__btn button:not(:hover):not(:active).formbox__btn-calc {
+	  background-color: #ffffff;
+    color: #071927;
+    border-color: #071927;
+	text-transform: uppercase;
+}
+
+.formbox__btn button.formbox__btn-calc:hover{
+	  background-color: #071927;
+    color: #ffffff;
+}
+
+.formbox__btn button:not(:hover):not(:active).formbox__btn-reset {
+		  background-color: #ffffff;
+    color: #071927;
+    border-color: #071927;
+	text-transform: uppercase;
+}
+
+.formbox__btn button.formbox__btn-reset:hover{
+		  background-color: #071927;
+    color: #ffffff;
+}
+
+.formbox__container .formbox__field-radio label {
+    font-size: 1rem;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.formbox__title {
+	text-transform: uppercase;
+}
+
+.chosen-answer {
+	background: rgb(169 196 208 / 24%);
+  font-weight: 600;
+}
