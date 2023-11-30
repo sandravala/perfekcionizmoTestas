@@ -4,6 +4,19 @@
 	}
 }
 
+a.start-btn {
+	background-color: rgba(102, 152, 175, 0.8);
+    width: 190px;
+	height: 32px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.formbox__container .start-btn {
+	    justify-items: center;
+}
+
 .formbox__field-radio{
 	padding-bottom: 10px;
 	padding-top: 10px;
