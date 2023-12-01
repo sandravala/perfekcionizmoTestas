@@ -7,13 +7,17 @@
 a.start-btn {
 	background-color: rgba(102, 152, 175, 0.8);
     width: 190px;
-	height: 32px;
+    height: 40px;
     border-radius: 20px;
     text-decoration: none;
     text-align: center;
+    padding-top: 4px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
 }
 
-.formbox__container .start-btn {
+.formbox__container.pradeti {
 	    justify-items: center;
 }
 
